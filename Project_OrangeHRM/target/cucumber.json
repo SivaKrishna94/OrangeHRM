@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 42,
+        "name": "",
+        "description": "The user will add a new skill",
+        "id": "orangehrm-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10405724004,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user launch the given browser",
+            "match": {
+              "location": "SkillSet.user_launch_the_given_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3308675300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user login to the home page",
+            "match": {
+              "location": "SkillSet.the_user_login_to_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4729448302,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user will add a new skill",
+            "match": {
+              "location": "SkillSet.the_user_will_add_a_new_skill()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1842140694,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user will delete the skill",
+            "match": {
+              "location": "SkillSet.the_user_will_delete_the_skill()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@TC06_OrangeHRM"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Website",
+    "description": "",
+    "id": "orangehrm-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Feature/Testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@OrangeHRM"
+      }
+    ]
+  }
+]

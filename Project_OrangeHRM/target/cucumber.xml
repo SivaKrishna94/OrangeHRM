@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.285988">
+    <testcase classname="OrangeHRM Website" name="" time="20.285988">
+        <system-out>
+            <![CDATA[Given user launch the given browser.........................................passed
+When the user login to the home page........................................passed
+Then the user will add a new skill..........................................passed
+Then the user will delete the skill.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
