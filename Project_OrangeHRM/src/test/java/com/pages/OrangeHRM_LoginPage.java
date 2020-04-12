@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.utilities.ExcelLogin;
+import com.utilities.Excel;
 
 public class OrangeHRM_LoginPage {
 	
@@ -21,14 +21,13 @@ public class OrangeHRM_LoginPage {
 	@FindBy(xpath="//a[text()='Logout']")
 	WebElement logout;
 	
-	ExcelLogin Excel = new ExcelLogin();
 	public OrangeHRM_LoginPage(WebDriver driver) {
 		this.driver=driver;
 	  PageFactory.initElements(driver,this);
 	}
 	
 	//to pass parameters from feature file to login
-	public void DetailsEntry1(String un, String pw)
+	public void DetailsEntry1(String un,String pw)
 	{
 		Username.sendKeys(un);
 		Password.sendKeys(pw);

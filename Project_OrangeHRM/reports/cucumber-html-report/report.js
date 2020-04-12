@@ -50,28 +50,28 @@ formatter.match({
   "location": "SkillSet.user_launch_the_given_browser()"
 });
 formatter.result({
-  "duration": 10405724004,
+  "duration": 11032144696,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillSet.the_user_login_to_the_home_page()"
 });
 formatter.result({
-  "duration": 3308675300,
+  "duration": 3505776349,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillSet.the_user_will_add_a_new_skill()"
 });
 formatter.result({
-  "duration": 4729448302,
+  "duration": 4947527747,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillSet.the_user_will_delete_the_skill()"
 });
 formatter.result({
-  "duration": 1842140694,
+  "duration": 1927433236,
   "status": "passed"
 });
 });

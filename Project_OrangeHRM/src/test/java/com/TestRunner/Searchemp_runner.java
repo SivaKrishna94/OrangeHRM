@@ -13,7 +13,7 @@ plugin = {"pretty", "html:reports/cucumber-html-report",
 		"json:target/cucumber.json",
 		"junit:target/cucumber.xml"},
 
-tags = {"@TC04_OrangeHRM"},
+tags = {"@TC06_OrangeHRM"},
 glue = {"com.Stepdefinition"},
 monochrome = true
 		)
